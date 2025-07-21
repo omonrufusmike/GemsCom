@@ -1,0 +1,187 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #222;
+}
+
+/* ===== INTRO SECTION ===== */
+.intro {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  line-height: 1.4;
+}
+
+.features-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.feature {
+  text-align: left;
+}
+.feature1 {
+  text-align: right;
+}
+
+.feature img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.center-image img {
+  width: 450px;
+  height: 450px;
+  object-fit: contain;
+}
+
+.cta-button {
+  background-color: #f66b30;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #e45b25;
+}
+
+.guarantee {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #666;
+}
+
+.payments {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.payments img {
+  width: 40px;
+}
+
+/* ===== NUTRITION SECTION ===== */
+.nutrition-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.nutrition-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.nutrition-content .text-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.nutrition-content .image-column {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.nutrition-content .image-column img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.key-points {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.key-points li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  
+}
+
+.key-points span {
+  color: red;
+}
+
+.key-points p {
+  color: #424153;
+  margin-right: 10px;
+  
+
+}
+/* ===== GASTRO SECTION ===== */
+.gastro-section {
+  padding: 60px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.gastro-section .image-column,
+.gastro-section .text-column {
+  flex: 1;
+  min-width: 280px;
+}
+
+.gastro-section .image-column img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+/* ===== PREBIOTICS SECTION ===== */
+.prebiotics-section {
+  padding: 60px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.prebiotics-section .text-column,
+.prebiotics-section .image-column {
+  flex: 1;
+  min-width: 280px;
+}
+
+.prebiotics-section .image-column img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
